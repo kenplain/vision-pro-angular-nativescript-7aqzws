@@ -1,0 +1,53 @@
+<ScrollView>
+  <StackLayout>
+    <!-- Hero Section -->
+    <GridLayout rows="auto" class="hero-section p-4 bg-green-800">
+      <StackLayout>
+        <Label text="Ashland Tree Service" class="text-4xl font-bold text-white text-center p-2"/>
+        <Label text="24/7 Emergency Tree Removal - Augusta, GA" class="text-xl text-white text-center"/>
+        <Button text="Call Now: (706) 555-0123" class="btn-primary m-4 p-4 bg-red-600 text-white text-lg rounded-lg" tap="onCall"/>
+      </StackLayout>
+    </GridLayout>
+
+    <!-- Emergency Services -->
+    <StackLayout class="p-4 bg-white">
+      <Label text="Hurricane Damage? We Can Help!" class="text-2xl font-bold text-center text-green-800"/>
+      <Label textWrap="true" class="text-lg p-2">
+        ✓ 24/7 Emergency Response
+        ✓ Storm Damage Cleanup
+        ✓ Fallen Tree Removal
+        ✓ Free Estimates
+        ✓ Licensed & Insured
+      </Label>
+    </StackLayout>
+
+    <!-- Contact Form -->
+    <StackLayout class="p-4 bg-gray-100">
+      <Label text="Get a Free Estimate" class="text-2xl font-bold text-center text-green-800 m-b-2"/>
+      <TextField hint="Full Name" class="input m-2 p-2 rounded"/>
+      <TextField hint="Phone Number" keyboardType="phone" class="input m-2 p-2 rounded"/>
+      <TextField hint="Email" keyboardType="email" class="input m-2 p-2 rounded"/>
+      <TextView hint="Describe your tree emergency..." class="input m-2 p-2 rounded" height="100"/>
+      <Button text="Submit Request" class="btn-primary m-4 p-4 bg-green-800 text-white text-lg rounded-lg"/>
+    </StackLayout>
+
+    <!-- Why Choose Us -->
+    <StackLayout class="p-4 bg-white">
+      <Label text="Why Choose Ashland Tree Service?" class="text-2xl font-bold text-center text-green-800"/>
+      <StackLayout class="m-2">
+        <Label text="✓ 20+ Years Experience" class="text-lg"/>
+        <Label text="✓ Fully Licensed & Insured" class="text-lg"/>
+        <Label text="✓ Same-Day Emergency Service" class="text-lg"/>
+        <Label text="✓ Local Augusta Business" class="text-lg"/>
+        <Label text="✓ BBB A+ Rating" class="text-lg"/>
+      </StackLayout>
+    </StackLayout>
+
+    <!-- Footer -->
+    <StackLayout class="p-4 bg-green-800">
+      <Label text="Ashland Tree Service" class="text-white text-lg text-center"/>
+      <Label text="Serving Augusta and Surrounding Areas" class="text-white text-center"/>
+      <Label text="Emergency? Call (706) 555-0123" class="text-white text-lg text-center" tap="onCall"/>
+    </StackLayout>
+  </StackLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 300;
+}
+
+.input {
+  background-color: #ffffff;
+  border-width: 1;
+  border-color: #e2e8f0;
+}
+
+.btn-primary {
+  font-weight: bold;
+  text-transform: uppercase;
+}
